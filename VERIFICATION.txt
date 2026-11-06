@@ -1,0 +1,983 @@
+$ python -m unittest discover -s tests -v
+
+test_actual_chat_contract_and_evidence (test_bot.BotTests.test_actual_chat_contract_and_evidence) ... ok
+test_bot_window (test_bot.BotTests.test_bot_window) ... ok
+test_context_no_missing_db_creation (test_bot.BotTests.test_context_no_missing_db_creation) ... ok
+test_history_cannot_inject_system_role (test_bot.BotTests.test_history_cannot_inject_system_role) ... ok
+test_invalid_and_incomplete_responses (test_bot.BotTests.test_invalid_and_incomplete_responses) ... ok
+test_no_fake_fallback_on_unavailable (test_bot.BotTests.test_no_fake_fallback_on_unavailable) ... ok
+test_validation_before_network (test_bot.BotTests.test_validation_before_network) ... ok
+test_filter_before_limit_combines_with_status_and_export (test_classification.ClassificationTests.test_filter_before_limit_combines_with_status_and_export) ... ok
+test_rule_families_do_not_label_wifi_as_confirmed_attacks (test_classification.ClassificationTests.test_rule_families_do_not_label_wifi_as_confirmed_attacks) ... ok
+test_attack_filter_changes_visible_rows_and_counter (test_gui.DesktopRegressionTests.test_attack_filter_changes_visible_rows_and_counter) ... ok
+test_controls_remain_accessible_in_small_window (test_gui.DesktopRegressionTests.test_controls_remain_accessible_in_small_window) ... ok
+test_demo_resets_filters_and_stage (test_gui.DesktopRegressionTests.test_demo_resets_filters_and_stage) ... ok
+test_investigation_windows_and_reputation_are_opt_in (test_gui.DesktopRegressionTests.test_investigation_windows_and_reputation_are_opt_in) ... ok
+test_refresh_keeps_rows_scroll_selection_and_emits_no_selection_events (test_gui.DesktopRegressionTests.test_refresh_keeps_rows_scroll_selection_and_emits_no_selection_events) ... ok
+test_tools_simulation_network_filter_and_reset (test_gui.DesktopRegressionTests.test_tools_simulation_network_filter_and_reset) ... ok
+test_triage_immediately_obeys_filter (test_gui.DesktopRegressionTests.test_triage_immediately_obeys_filter) ... ok
+test_wifi_access_denied_is_visible_and_stop_remains_responsive (test_gui.DesktopRegressionTests.test_wifi_access_denied_is_visible_and_stop_remains_responsive) ... ok
+test_wifi_alert_shows_actionable_advice_without_dumping_baseline (test_gui.DesktopRegressionTests.test_wifi_alert_shows_actionable_advice_without_dumping_baseline) ... ok
+test_cli_unicode_explanation_timeline_and_missing_provider_keys (test_investigation.InvestigationTests.test_cli_unicode_explanation_timeline_and_missing_provider_keys) ... ok
+test_cross_source_chain_and_mongolian_explanation_with_logs (test_investigation.InvestigationTests.test_cross_source_chain_and_mongolian_explanation_with_logs) ... ok
+test_eve_skip_invalid_and_offset_timestamp (test_investigation.InvestigationTests.test_eve_skip_invalid_and_offset_timestamp) ... ok
+test_no_false_chain_across_targets_usernames_or_gaps (test_investigation.InvestigationTests.test_no_false_chain_across_targets_usernames_or_gaps) ... ok
+test_old_alert_explanation_does_not_invent_logs_or_threshold (test_investigation.InvestigationTests.test_old_alert_explanation_does_not_invent_logs_or_threshold) ... ok
+test_raw_log_whitelist_excludes_password_and_repeated_rows (test_investigation.InvestigationTests.test_raw_log_whitelist_excludes_password_and_repeated_rows) ... ok
+test_suricata_different_signatures_preserved_and_replay_deduplicated (test_investigation.InvestigationTests.test_suricata_different_signatures_preserved_and_replay_deduplicated) ... ok
+test_timeline_truncation_is_explicit (test_investigation.InvestigationTests.test_timeline_truncation_is_explicit) ... ok
+test_combined_destination_and_port_must_match_same_flow (test_network_tools.NetworkToolTests.test_combined_destination_and_port_must_match_same_flow) ... ok
+test_invalid_filters_fail_clearly (test_network_tools.NetworkToolTests.test_invalid_filters_fail_clearly) ... ok
+test_invalid_xml_and_inplace_import_rejected (test_network_tools.NetworkToolTests.test_invalid_xml_and_inplace_import_rejected) ... ok
+test_nmap_inventory_does_not_create_attack_alerts (test_network_tools.NetworkToolTests.test_nmap_inventory_does_not_create_attack_alerts) ... ok
+test_optional_metadata_validation_and_ipv6_source_filter (test_network_tools.NetworkToolTests.test_optional_metadata_validation_and_ipv6_source_filter) ... ok
+test_pcap_packet_lengths_and_checksums (test_network_tools.NetworkToolTests.test_pcap_packet_lengths_and_checksums) ... ok
+test_tools_simulation_and_ip_port_protocol_filters (test_network_tools.NetworkToolTests.test_tools_simulation_and_ip_port_protocol_filters) ... ok
+test_tshark_synack_and_invalid_rows_not_counted (test_network_tools.NetworkToolTests.test_tshark_synack_and_invalid_rows_not_counted) ... ok
+test_zeek_and_tshark_metadata_agree (test_network_tools.NetworkToolTests.test_zeek_and_tshark_metadata_agree) ... ok
+test_absolute_override_is_independent_of_cwd (test_paths.DataPathTests.test_absolute_override_is_independent_of_cwd) ... ok
+test_gui_functions_from_system32_use_user_data (test_paths.DataPathTests.test_gui_functions_from_system32_use_user_data) ... ok
+test_relative_override_is_rejected (test_paths.DataPathTests.test_relative_override_is_rejected) ... ok
+test_windows_default_uses_local_appdata (test_paths.DataPathTests.test_windows_default_uses_local_appdata) ... ok
+test_cli_demo_triage_and_json_export (test_product.ProductTests.test_cli_demo_triage_and_json_export) ... ok
+test_full_workflow_export_filter_triage_and_replay (test_product.ProductTests.test_full_workflow_export_filter_triage_and_replay) ... ok
+test_normalized_ips_and_nonstring_rejection (test_product.ProductTests.test_normalized_ips_and_nonstring_rejection) ... ok
+test_original_v02_database_migrates_without_losing_alerts (test_product.ProductTests.test_original_v02_database_migrates_without_losing_alerts) ... ok
+test_abuseipdb_reason_dates_cache_and_secret_exclusion (test_reputation.ReputationTests.test_abuseipdb_reason_dates_cache_and_secret_exclusion) ... ok
+test_http_429_does_not_leak_key_or_retry (test_reputation.ReputationTests.test_http_429_does_not_leak_key_or_retry) ... ok
+test_missing_keys_are_unavailable_not_clean (test_reputation.ReputationTests.test_missing_keys_are_unavailable_not_clean) ... ok
+test_private_and_documentation_ips_never_leave_device (test_reputation.ReputationTests.test_private_and_documentation_ips_never_leave_device) ... ok
+test_provider_error_keeps_previous_data_and_original_dates (test_reputation.ReputationTests.test_provider_error_keeps_previous_data_and_original_dates) ... ok
+test_virustotal_flags_and_unknown_update (test_reputation.ReputationTests.test_virustotal_flags_and_unknown_update) ... ok
+test_wrong_ip_and_malformed_dates_not_cached (test_reputation.ReputationTests.test_wrong_ip_and_malformed_dates_not_cached) ... ok
+test_live_append_partial_line_and_persistence (test_sentinelai.CLITests.test_live_append_partial_line_and_persistence) ... ok
+test_missing_input_is_friendly_error (test_sentinelai.CLITests.test_missing_input_is_friendly_error) ... ok
+test_boundary_inclusive (test_sentinelai.DetectionTests.test_boundary_inclusive) ... ok
+test_brute_force_threshold_and_dedup (test_sentinelai.DetectionTests.test_brute_force_threshold_and_dedup) ... ok
+test_configurable_threshold (test_sentinelai.DetectionTests.test_configurable_threshold) ... ok
+test_distinct_ports_and_source_isolation (test_sentinelai.DetectionTests.test_distinct_ports_and_source_isolation) ... ok
+test_invalid_schema (test_sentinelai.DetectionTests.test_invalid_schema) ... ok
+test_late_event_dropped (test_sentinelai.DetectionTests.test_late_event_dropped) ... ok
+test_restart_dedup_and_cooldown (test_sentinelai.DetectionTests.test_restart_dedup_and_cooldown) ... ok
+test_suspicious_success_and_critical_scoring (test_sentinelai.DetectionTests.test_suspicious_success_and_critical_scoring) ... ok
+test_window_expiry (test_sentinelai.DetectionTests.test_window_expiry) ... ok
+test_append_partial_truncate_rotate_missing (test_sentinelai.ReaderTests.test_append_partial_truncate_rotate_missing) ... ok
+test_invalid_configuration (test_sentinelai.ReaderTests.test_invalid_configuration) ... ok
+test_fifty_ips_and_exact_alert_sources (test_simulation.SimulationTests.test_fifty_ips_and_exact_alert_sources) ... ok
+test_incomplete_run_does_not_claim_success (test_simulation.SimulationTests.test_incomplete_run_does_not_claim_success) ... ok
+test_invalid_interval_creates_no_artifacts (test_simulation.SimulationTests.test_invalid_interval_creates_no_artifacts) ... ok
+test_live_stages_trigger_at_expected_records (test_simulation.SimulationTests.test_live_stages_trigger_at_expected_records) ... ok
+test_access_denied_and_disconnected_are_not_safe (test_wifi.WifiTests.test_access_denied_and_disconnected_are_not_safe) ... ok
+test_background_collection_does_not_block_poll_or_stop (test_wifi.WifiTests.test_background_collection_does_not_block_poll_or_stop) ... ok
+test_configuration_error_keeps_wifi_data_and_marks_missing_coverage (test_wifi.WifiTests.test_configuration_error_keeps_wifi_data_and_marks_missing_coverage) ... ok
+test_different_network_does_not_trigger_gateway_change (test_wifi.WifiTests.test_different_network_does_not_trigger_gateway_change) ... ok
+test_encrypted_baseline_is_not_reported_as_an_attack (test_wifi.WifiTests.test_encrypted_baseline_is_not_reported_as_an_attack) ... ok
+test_gateway_dns_and_roaming_changes_are_review_signals (test_wifi.WifiTests.test_gateway_dns_and_roaming_changes_are_review_signals) ... ok
+test_legacy_security_and_firewall (test_wifi.WifiTests.test_legacy_security_and_firewall) ... ok
+test_missing_metadata_does_not_destroy_baseline (test_wifi.WifiTests.test_missing_metadata_does_not_destroy_baseline) ... ok
+test_native_structures_match_windows_abi (test_wifi.WifiTests.test_native_structures_match_windows_abi) ... ok
+test_open_wifi_alert_and_dedup (test_wifi.WifiTests.test_open_wifi_alert_and_dedup) ... ok
+test_partial_coverage_and_collector_metadata_mapping (test_wifi.WifiTests.test_partial_coverage_and_collector_metadata_mapping) ... ok
+test_restart_keeps_baseline (test_wifi.WifiTests.test_restart_keeps_baseline) ... ok
+test_unknown_firewall_not_misreported_disabled (test_wifi.WifiTests.test_unknown_firewall_not_misreported_disabled) ... ok
+
+----------------------------------------------------------------------
+Ran 80 tests in 20.025s
+
+OK
+
+$ python tools/smoke_desktop.py
+
+Desktop smoke: demo=3 alerts, acknowledge/filter=OK, start/stop=OK
+Desktop live simulation: 19 incremental events, 3 alerts, completion and early stop=OK
+Desktop 50-IP simulation: 120 events, 15 expected alerts=OK
+
+$ python tools/check_wifi_host.py --app C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\dist\SentinelAI.pyz
+
+NATIVE WI-FI HOST CHECK: UNAVAILABLE; no live-hotspot success claim.
+Wi-Fi telemetry unavailable: Windows WLAN error 5: Access denied. Check Location access for desktop apps, WLAN AutoConfig, and device policy; restricted execution may also block collection.
+Verified: unavailable telemetry is explicit and produces no invented alerts.
+
+$ python C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\dist\SentinelAI.pyz demo --directory C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\tmpa1y0s4nh\demo
+
+SentinelAI v0.6.0 | rule-based JSONL monitor
+MEDIUM   risk= 65 ssh_brute_force      192.0.2.10 count=5
+CRITICAL risk= 90 suspicious_auth      192.0.2.10 count=5
+MEDIUM   risk= 50 port_scan            198.51.100.20 count=8
+Summary: records=14 invalid=0 late=0 new_alerts=3
+
+$ python C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\dist\SentinelAI.pyz monitor C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\tmpa1y0s4nh\demo\events.jsonl --db C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\tmpa1y0s4nh\demo\alerts.sqlite3 --color never
+
+SentinelAI v0.6.0 | rule-based JSONL monitor
+Summary: records=14 invalid=0 late=0 new_alerts=0
+
+$ python C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\dist\SentinelAI.pyz triage 1 acknowledged --db C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\tmpa1y0s4nh\demo\alerts.sqlite3
+
+Alert 1: acknowledged
+
+$ python C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\dist\SentinelAI.pyz alerts --db C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\tmpa1y0s4nh\demo\alerts.sqlite3 --status acknowledged --json
+
+[
+  {
+    "id": 1,
+    "timestamp": "2026-01-01T00:00:04+00:00",
+    "rule": "ssh_brute_force",
+    "src_ip": "192.0.2.10",
+    "severity": "medium",
+    "score": 65,
+    "evidence": {
+      "count": 5,
+      "window_seconds": 60,
+      "threshold": 5,
+      "window_start": "2025-12-31T23:59:04+00:00",
+      "window_end": "2026-01-01T00:00:04+00:00",
+      "log_ids": [
+        "ae91d0d6f4f0f2c8110f9472a91b35ffada0b5264ecd98bf6ddcaa0123892e63",
+        "d032468d96c5e4ac11c9f80666e00733a243ad3cdc58c08a5bb1741c30ef0968",
+        "723fc68c6121cb196cf54d717676b3c155a8ffb505badfb8c45e571c07d73aaf",
+        "c4da5dde3fbec4ba4741c368838939c39bf0701ca695fc873ecaefe1cc7c0f5b",
+        "f16e027411daac9c9d7e84c2bb37ddaa6c4d39ab2a58cc5d75e4f040704f038f"
+      ],
+      "trigger_log_id": "f16e027411daac9c9d7e84c2bb37ddaa6c4d39ab2a58cc5d75e4f040704f038f",
+      "source": "jsonl",
+      "destinations": [],
+      "dst_ports": [],
+      "protocols": [],
+      "flows": [
+        {
+          "dst_ip": "",
+          "dst_port": 0,
+          "protocol": ""
+        }
+      ]
+    },
+    "status": "acknowledged",
+    "attack_type": "brute_force",
+    "attack_label": "SSH brute force",
+    "classification": "attack_indicator"
+  }
+]
+
+$ python C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\dist\SentinelAI.pyz alerts --db C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\tmpa1y0s4nh\demo\alerts.sqlite3 --export C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\tmpa1y0s4nh\alerts.csv
+
+Exported 3 alerts to C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\tmpa1y0s4nh\alerts.csv
+
+$ python C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\dist\SentinelAI.pyz simulate --directory C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\tmpa1y0s4nh\simulation --interval 0
+
+SentinelAI LIVE SIMULATION | synthetic local events | no network traffic
+Artifacts: C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\tmpa1y0s4nh\simulation\simulation-20261021-193919-465232
+
+STAGE: Normal traffic - no alert expected
+  [01/19] 203.0.113.10 success
+  [02/19] 203.0.113.11 success
+  [03/19] 203.0.113.12 success
+
+STAGE: SSH brute force - five failed logins
+  [04/19] 192.0.2.10 failure
+  [05/19] 192.0.2.10 failure
+  [06/19] 192.0.2.10 failure
+  [07/19] 192.0.2.10 failure
+  [08/19] 192.0.2.10 failure
+  ALERT MEDIUM score=65 ssh_brute_force source=192.0.2.10
+
+STAGE: Suspicious authentication - success after failures
+  [09/19] 192.0.2.10 success
+  ALERT CRITICAL score=90 suspicious_auth source=192.0.2.10
+
+STAGE: Port scan - eight distinct destination ports
+  [10/19] 198.51.100.20 port=1000
+  [11/19] 198.51.100.20 port=1001
+  [12/19] 198.51.100.20 port=1002
+  [13/19] 198.51.100.20 port=1003
+  [14/19] 198.51.100.20 port=1004
+  [15/19] 198.51.100.20 port=1005
+  [16/19] 198.51.100.20 port=1006
+  [17/19] 198.51.100.20 port=1007
+  ALERT MEDIUM score=50 port_scan source=198.51.100.20
+
+STAGE: Normal traffic resumes - no additional alert expected
+  [18/19] 203.0.113.50 port=443
+  [19/19] 203.0.113.50 port=443
+
+Simulation PASS: ips=6 records=19 invalid=0 late=0 new_alerts=3
+Saved: ips.txt, events.jsonl, alerts.sqlite3, alerts.csv, alerts.json, report.json
+
+$ python C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\dist\SentinelAI.pyz simulate --hosts 50 --directory C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\tmpa1y0s4nh\fifty --interval 0
+
+SentinelAI LIVE SIMULATION | synthetic local events | no network traffic
+Artifacts: C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\tmpa1y0s4nh\fifty\simulation-20261021-193920-007746
+
+STAGE: Baseline - 50 unique IP addresses, no alerts expected
+  [01/120] 192.0.2.1 success
+  [02/120] 192.0.2.2 success
+  [03/120] 192.0.2.3 success
+  [04/120] 192.0.2.4 success
+  [05/120] 192.0.2.5 success
+  [06/120] 192.0.2.6 success
+  [07/120] 192.0.2.7 success
+  [08/120] 192.0.2.8 success
+  [09/120] 192.0.2.9 success
+  [10/120] 192.0.2.10 success
+  [11/120] 192.0.2.11 success
+  [12/120] 192.0.2.12 success
+  [13/120] 192.0.2.13 success
+  [14/120] 192.0.2.14 success
+  [15/120] 192.0.2.15 success
+  [16/120] 192.0.2.16 success
+  [17/120] 192.0.2.17 success
+  [18/120] 192.0.2.18 success
+  [19/120] 192.0.2.19 success
+  [20/120] 192.0.2.20 success
+  [21/120] 192.0.2.21 success
+  [22/120] 192.0.2.22 success
+  [23/120] 192.0.2.23 success
+  [24/120] 192.0.2.24 success
+  [25/120] 192.0.2.25 success
+  [26/120] 192.0.2.26 success
+  [27/120] 192.0.2.27 success
+  [28/120] 192.0.2.28 success
+  [29/120] 192.0.2.29 success
+  [30/120] 192.0.2.30 success
+  [31/120] 192.0.2.31 success
+  [32/120] 192.0.2.32 success
+  [33/120] 192.0.2.33 success
+  [34/120] 192.0.2.34 success
+  [35/120] 192.0.2.35 success
+  [36/120] 192.0.2.36 success
+  [37/120] 192.0.2.37 success
+  [38/120] 192.0.2.38 success
+  [39/120] 192.0.2.39 success
+  [40/120] 192.0.2.40 success
+  [41/120] 192.0.2.41 success
+  [42/120] 192.0.2.42 success
+  [43/120] 192.0.2.43 success
+  [44/120] 192.0.2.44 success
+  [45/120] 192.0.2.45 success
+  [46/120] 192.0.2.46 success
+  [47/120] 192.0.2.47 success
+  [48/120] 192.0.2.48 success
+  [49/120] 192.0.2.49 success
+  [50/120] 192.0.2.50 success
+
+STAGE: SSH failures - five suspicious sources
+  [51/120] 192.0.2.1 failure
+  [52/120] 192.0.2.1 failure
+  [53/120] 192.0.2.1 failure
+  [54/120] 192.0.2.1 failure
+  [55/120] 192.0.2.1 failure
+  ALERT MEDIUM score=65 ssh_brute_force source=192.0.2.1
+
+STAGE: Successful login after failures
+  [56/120] 192.0.2.1 success
+  ALERT CRITICAL score=90 suspicious_auth source=192.0.2.1
+
+STAGE: SSH failures - five suspicious sources
+  [57/120] 192.0.2.2 failure
+  [58/120] 192.0.2.2 failure
+  [59/120] 192.0.2.2 failure
+  [60/120] 192.0.2.2 failure
+  [61/120] 192.0.2.2 failure
+  ALERT MEDIUM score=65 ssh_brute_force source=192.0.2.2
+
+STAGE: Successful login after failures
+  [62/120] 192.0.2.2 success
+  ALERT CRITICAL score=90 suspicious_auth source=192.0.2.2
+
+STAGE: SSH failures - five suspicious sources
+  [63/120] 192.0.2.3 failure
+  [64/120] 192.0.2.3 failure
+  [65/120] 192.0.2.3 failure
+  [66/120] 192.0.2.3 failure
+  [67/120] 192.0.2.3 failure
+  ALERT MEDIUM score=65 ssh_brute_force source=192.0.2.3
+
+STAGE: Successful login after failures
+  [68/120] 192.0.2.3 success
+  ALERT CRITICAL score=90 suspicious_auth source=192.0.2.3
+
+STAGE: SSH failures - five suspicious sources
+  [69/120] 192.0.2.4 failure
+  [70/120] 192.0.2.4 failure
+  [71/120] 192.0.2.4 failure
+  [72/120] 192.0.2.4 failure
+  [73/120] 192.0.2.4 failure
+  ALERT MEDIUM score=65 ssh_brute_force source=192.0.2.4
+
+STAGE: Successful login after failures
+  [74/120] 192.0.2.4 success
+  ALERT CRITICAL score=90 suspicious_auth source=192.0.2.4
+
+STAGE: SSH failures - five suspicious sources
+  [75/120] 192.0.2.5 failure
+  [76/120] 192.0.2.5 failure
+  [77/120] 192.0.2.5 failure
+  [78/120] 192.0.2.5 failure
+  [79/120] 192.0.2.5 failure
+  ALERT MEDIUM score=65 ssh_brute_force source=192.0.2.5
+
+STAGE: Successful login after failures
+  [80/120] 192.0.2.5 success
+  ALERT CRITICAL score=90 suspicious_auth source=192.0.2.5
+
+STAGE: Port scans - five suspicious sources
+  [81/120] 192.0.2.6 port=1000
+  [82/120] 192.0.2.6 port=1001
+  [83/120] 192.0.2.6 port=1002
+  [84/120] 192.0.2.6 port=1003
+  [85/120] 192.0.2.6 port=1004
+  [86/120] 192.0.2.6 port=1005
+  [87/120] 192.0.2.6 port=1006
+  [88/120] 192.0.2.6 port=1007
+  ALERT MEDIUM score=50 port_scan source=192.0.2.6
+  [89/120] 192.0.2.7 port=1000
+  [90/120] 192.0.2.7 port=1001
+  [91/120] 192.0.2.7 port=1002
+  [92/120] 192.0.2.7 port=1003
+  [93/120] 192.0.2.7 port=1004
+  [94/120] 192.0.2.7 port=1005
+  [95/120] 192.0.2.7 port=1006
+  [96/120] 192.0.2.7 port=1007
+  ALERT MEDIUM score=50 port_scan source=192.0.2.7
+  [97/120] 192.0.2.8 port=1000
+  [98/120] 192.0.2.8 port=1001
+  [99/120] 192.0.2.8 port=1002
+  [100/120] 192.0.2.8 port=1003
+  [101/120] 192.0.2.8 port=1004
+  [102/120] 192.0.2.8 port=1005
+  [103/120] 192.0.2.8 port=1006
+  [104/120] 192.0.2.8 port=1007
+  ALERT MEDIUM score=50 port_scan source=192.0.2.8
+  [105/120] 192.0.2.9 port=1000
+  [106/120] 192.0.2.9 port=1001
+  [107/120] 192.0.2.9 port=1002
+  [108/120] 192.0.2.9 port=1003
+  [109/120] 192.0.2.9 port=1004
+  [110/120] 192.0.2.9 port=1005
+  [111/120] 192.0.2.9 port=1006
+  [112/120] 192.0.2.9 port=1007
+  ALERT MEDIUM score=50 port_scan source=192.0.2.9
+  [113/120] 192.0.2.10 port=1000
+  [114/120] 192.0.2.10 port=1001
+  [115/120] 192.0.2.10 port=1002
+  [116/120] 192.0.2.10 port=1003
+  [117/120] 192.0.2.10 port=1004
+  [118/120] 192.0.2.10 port=1005
+  [119/120] 192.0.2.10 port=1006
+  [120/120] 192.0.2.10 port=1007
+  ALERT MEDIUM score=50 port_scan source=192.0.2.10
+
+Simulation PASS: ips=50 records=120 invalid=0 late=0 new_alerts=15
+Saved: ips.txt, events.jsonl, alerts.sqlite3, alerts.csv, alerts.json, report.json
+
+$ python C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\dist\SentinelAI.pyz tools-demo --directory C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\tmpa1y0s4nh\tools --interval 0
+
+SentinelAI LIVE SIMULATION | synthetic local events | no network traffic
+Artifacts: C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\tmpa1y0s4nh\tools\simulation-20261021-193921-468232
+
+STAGE: SYNTHETIC scan-like TCP SYN sequence
+  [01/85] 192.0.2.1 port=1000
+  [02/85] 192.0.2.1 port=1001
+  [03/85] 192.0.2.1 port=1002
+  [04/85] 192.0.2.1 port=1003
+  [05/85] 192.0.2.1 port=1004
+  [06/85] 192.0.2.1 port=1005
+  [07/85] 192.0.2.1 port=1006
+  [08/85] 192.0.2.1 port=1007
+  ALERT MEDIUM score=50 port_scan source=192.0.2.1
+  [09/85] 192.0.2.2 port=1000
+  [10/85] 192.0.2.2 port=1001
+  [11/85] 192.0.2.2 port=1002
+  [12/85] 192.0.2.2 port=1003
+  [13/85] 192.0.2.2 port=1004
+  [14/85] 192.0.2.2 port=1005
+  [15/85] 192.0.2.2 port=1006
+  [16/85] 192.0.2.2 port=1007
+  ALERT MEDIUM score=50 port_scan source=192.0.2.2
+  [17/85] 192.0.2.3 port=1000
+  [18/85] 192.0.2.3 port=1001
+  [19/85] 192.0.2.3 port=1002
+  [20/85] 192.0.2.3 port=1003
+  [21/85] 192.0.2.3 port=1004
+  [22/85] 192.0.2.3 port=1005
+  [23/85] 192.0.2.3 port=1006
+  [24/85] 192.0.2.3 port=1007
+  ALERT MEDIUM score=50 port_scan source=192.0.2.3
+  [25/85] 192.0.2.4 port=1000
+  [26/85] 192.0.2.4 port=1001
+  [27/85] 192.0.2.4 port=1002
+  [28/85] 192.0.2.4 port=1003
+  [29/85] 192.0.2.4 port=1004
+  [30/85] 192.0.2.4 port=1005
+  [31/85] 192.0.2.4 port=1006
+  [32/85] 192.0.2.4 port=1007
+  ALERT MEDIUM score=50 port_scan source=192.0.2.4
+  [33/85] 192.0.2.5 port=1000
+  [34/85] 192.0.2.5 port=1001
+  [35/85] 192.0.2.5 port=1002
+  [36/85] 192.0.2.5 port=1003
+  [37/85] 192.0.2.5 port=1004
+  [38/85] 192.0.2.5 port=1005
+  [39/85] 192.0.2.5 port=1006
+  [40/85] 192.0.2.5 port=1007
+  ALERT MEDIUM score=50 port_scan source=192.0.2.5
+
+STAGE: SYNTHETIC normal single-port connections
+  [41/85] 192.0.2.6 port=443
+  [42/85] 192.0.2.7 port=443
+  [43/85] 192.0.2.8 port=443
+  [44/85] 192.0.2.9 port=443
+  [45/85] 192.0.2.10 port=443
+  [46/85] 192.0.2.11 port=443
+  [47/85] 192.0.2.12 port=443
+  [48/85] 192.0.2.13 port=443
+  [49/85] 192.0.2.14 port=443
+  [50/85] 192.0.2.15 port=443
+  [51/85] 192.0.2.16 port=443
+  [52/85] 192.0.2.17 port=443
+  [53/85] 192.0.2.18 port=443
+  [54/85] 192.0.2.19 port=443
+  [55/85] 192.0.2.20 port=443
+  [56/85] 192.0.2.21 port=443
+  [57/85] 192.0.2.22 port=443
+  [58/85] 192.0.2.23 port=443
+  [59/85] 192.0.2.24 port=443
+  [60/85] 192.0.2.25 port=443
+  [61/85] 192.0.2.26 port=443
+  [62/85] 192.0.2.27 port=443
+  [63/85] 192.0.2.28 port=443
+  [64/85] 192.0.2.29 port=443
+  [65/85] 192.0.2.30 port=443
+  [66/85] 192.0.2.31 port=443
+  [67/85] 192.0.2.32 port=443
+  [68/85] 192.0.2.33 port=443
+  [69/85] 192.0.2.34 port=443
+  [70/85] 192.0.2.35 port=443
+  [71/85] 192.0.2.36 port=443
+  [72/85] 192.0.2.37 port=443
+  [73/85] 192.0.2.38 port=443
+  [74/85] 192.0.2.39 port=443
+  [75/85] 192.0.2.40 port=443
+  [76/85] 192.0.2.41 port=443
+  [77/85] 192.0.2.42 port=443
+  [78/85] 192.0.2.43 port=443
+  [79/85] 192.0.2.44 port=443
+  [80/85] 192.0.2.45 port=443
+  [81/85] 192.0.2.46 port=443
+  [82/85] 192.0.2.47 port=443
+  [83/85] 192.0.2.48 port=443
+  [84/85] 192.0.2.49 port=443
+  [85/85] 192.0.2.50 port=443
+
+Simulation PASS: ips=50 records=85 invalid=0 late=0 new_alerts=5
+Saved: ips.txt, events.jsonl, alerts.sqlite3, alerts.csv, alerts.json, report.json
+
+$ python C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\dist\SentinelAI.pyz inventory C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\tmpa1y0s4nh\tools\simulation-20261021-193921-468232\nmap.xml --ip 192.0.2.1 --port 22,443 --export C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\tmpa1y0s4nh\services.csv
+
+Exported 2 inventory services; no attack inference.
+
+$ python C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\dist\SentinelAI.pyz import-log tshark C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\tmpa1y0s4nh\tools\simulation-20261021-193921-468232\wireshark.csv --output C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\tmpa1y0s4nh\packets.jsonl
+
+Imported: records=85 invalid=0 skipped=0
+
+Output: C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\tmpa1y0s4nh\packets.jsonl
+
+$ python C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\dist\SentinelAI.pyz monitor C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\tmpa1y0s4nh\packets.jsonl --db C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\tmpa1y0s4nh\packets.db
+
+SentinelAI v0.6.0 | rule-based JSONL monitor
+MEDIUM   risk= 50 port_scan            192.0.2.1 count=8
+MEDIUM   risk= 50 port_scan            192.0.2.2 count=8
+MEDIUM   risk= 50 port_scan            192.0.2.3 count=8
+MEDIUM   risk= 50 port_scan            192.0.2.4 count=8
+MEDIUM   risk= 50 port_scan            192.0.2.5 count=8
+Summary: records=85 invalid=0 late=0 new_alerts=5
+
+$ python C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\dist\SentinelAI.pyz alerts --db C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\tmpa1y0s4nh\packets.db --src-ip 192.0.2.1 --dst-ip 198.51.100.80 --port 1000-1007 --protocol tcp --source tshark --json
+
+[
+  {
+    "id": 1,
+    "timestamp": "2026-10-21T11:39:28+00:00",
+    "rule": "port_scan",
+    "src_ip": "192.0.2.1",
+    "severity": "medium",
+    "score": 50,
+    "evidence": {
+      "count": 8,
+      "window_seconds": 30,
+      "threshold": 8,
+      "window_start": "2026-10-21T11:38:58+00:00",
+      "window_end": "2026-10-21T11:39:28+00:00",
+      "log_ids": [
+        "20dc1a21e0f6bead85f26dd551569262d4b98396477fda78a795ed26e6838e02",
+        "993bf9fdb4165e560b1f783d36586a5867690ddc744c01831b89553b29662b1b",
+        "57d5219c24894c916357304a2708336ac96a6d54972f3c730f5a7d613f3bb96a",
+        "063bc6a0ce4f904771866972cf163e38e62f3b3ca1741950284188e1b95acdf6",
+        "3c0dba1d3f10faf33a29afed1810b85adbbc851b48e58dc2d08f3ff76a85ffbb",
+        "03c885950ed281213e0fd7edca1a2353ab91a4fc10e11a9b88ee5b5638cb40db",
+        "7d0834673156e75fae82738b953f136f0c61ecb19032c6854cd6f44700ac53f5",
+        "880119d79a93d6643459fe7e1d0a0756f76cca1e10de57d70812914351f50e52"
+      ],
+      "trigger_log_id": "880119d79a93d6643459fe7e1d0a0756f76cca1e10de57d70812914351f50e52",
+      "source": "tshark",
+      "destinations": [
+        "198.51.100.80"
+      ],
+      "dst_ports": [
+        1000,
+        1001,
+        1002,
+        1003,
+        1004,
+        1005,
+        1006,
+        1007
+      ],
+      "protocols": [
+        "tcp"
+      ],
+      "flows": [
+        {
+          "dst_ip": "198.51.100.80",
+          "dst_port": 1000,
+          "protocol": "tcp"
+        },
+        {
+          "dst_ip": "198.51.100.80",
+          "dst_port": 1001,
+          "protocol": "tcp"
+        },
+        {
+          "dst_ip": "198.51.100.80",
+          "dst_port": 1002,
+          "protocol": "tcp"
+        },
+        {
+          "dst_ip": "198.51.100.80",
+          "dst_port": 1003,
+          "protocol": "tcp"
+        },
+        {
+          "dst_ip": "198.51.100.80",
+          "dst_port": 1004,
+          "protocol": "tcp"
+        },
+        {
+          "dst_ip": "198.51.100.80",
+          "dst_port": 1005,
+          "protocol": "tcp"
+        },
+        {
+          "dst_ip": "198.51.100.80",
+          "dst_port": 1006,
+          "protocol": "tcp"
+        },
+        {
+          "dst_ip": "198.51.100.80",
+          "dst_port": 1007,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    "status": "new",
+    "attack_type": "port_scan",
+    "attack_label": "Port scanning",
+    "classification": "attack_indicator"
+  }
+]
+
+$ python C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\dist\SentinelAI.pyz import-log zeek C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\tmpa1y0s4nh\tools\simulation-20261021-193921-468232\zeek_conn.jsonl --output C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\tmpa1y0s4nh\zeek.jsonl
+
+Imported: records=85 invalid=0 skipped=0
+JSON conn.log only; Zeek TSV is not supported.
+Output: C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\tmpa1y0s4nh\zeek.jsonl
+
+$ python C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\dist\SentinelAI.pyz investigation-demo --directory C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\tmpa1y0s4nh\investigation --interval 0
+
+SentinelAI LIVE SIMULATION | synthetic local events | no network traffic
+Artifacts: C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\tmpa1y0s4nh\investigation\simulation-20261021-193924-698768
+
+STAGE: SYNTHETIC Suricata flow/signature
+  [01/15] 192.0.2.10 port=1000
+  [02/15] 192.0.2.10 port=1001
+  [03/15] 192.0.2.10 port=1002
+  [04/15] 192.0.2.10 port=1003
+  [05/15] 192.0.2.10 port=1004
+  [06/15] 192.0.2.10 port=1005
+  [07/15] 192.0.2.10 port=1006
+  [08/15] 192.0.2.10 port=1007
+  ALERT MEDIUM score=50 port_scan source=192.0.2.10
+  [09/15] 192.0.2.10 port=1007
+  ALERT HIGH score=70 suricata_alert source=192.0.2.10
+
+STAGE: SYNTHETIC auth log: failure
+  [10/15] 192.0.2.10 failure
+  [11/15] 192.0.2.10 failure
+  [12/15] 192.0.2.10 failure
+  [13/15] 192.0.2.10 failure
+  [14/15] 192.0.2.10 failure
+  ALERT MEDIUM score=65 ssh_brute_force source=192.0.2.10
+
+STAGE: SYNTHETIC auth log: success
+  [15/15] 192.0.2.10 success
+  ALERT CRITICAL score=90 suspicious_auth source=192.0.2.10
+
+Simulation PASS: ips=1 records=15 invalid=0 late=0 new_alerts=4
+Saved: ips.txt, events.jsonl, alerts.sqlite3, alerts.csv, alerts.json, report.json
+
+$ python C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\dist\SentinelAI.pyz import-log suricata C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\tmpa1y0s4nh\investigation\simulation-20261021-193924-698768\eve.json --output C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\tmpa1y0s4nh\eve.jsonl
+
+Imported: records=9 invalid=0 skipped=0
+EVE alert signatures are external IDS indicators, not confirmed compromise. Flow events and alerts are kept separate.
+Output: C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\tmpa1y0s4nh\eve.jsonl
+
+$ python C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\dist\SentinelAI.pyz explain 3 --db C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\tmpa1y0s4nh\investigation\simulation-20261021-193924-698768\alerts.sqlite3 --json
+
+{
+  "method": "offline_evidence",
+  "language": "mn",
+  "alert_id": 3,
+  "title_mn": "SSH login олон удаа амжилтгүй болсон",
+  "reason_mn": "Ижил source IP-ээс 60 секундийн цонхонд SSH authentication 5 удаа амжилтгүй болсон.",
+  "rule": "ssh_brute_force",
+  "source_ip": "192.0.2.10",
+  "alert_time": "2026-10-21T11:39:37.700340+00:00",
+  "decision": {
+    "observed_count": 5,
+    "threshold": 5,
+    "window_seconds": 60,
+    "window_start": "2026-10-21T11:38:37.700340+00:00",
+    "window_end": "2026-10-21T11:39:37.700340+00:00",
+    "severity": "medium",
+    "score": 65,
+    "score_meaning": "Дүрмийн heuristic priority; ML probability биш"
+  },
+  "log_ids": [
+    "5beef6307c27d8a719ee483d6656f506d438f0be6f447cf152d93bc4ae69c701",
+    "53743b830eae87e3fb9b06775a58ce7292a3959aa791f09c0e5ad5e40a177c2f",
+    "e5ad32bfe00108bdac34da34af0eb9732475c94c112604a622d9af0286237531",
+    "1a2cc1323412cab56e2286682106e1f867cb68cfd40dba7db2f857bb6f161663",
+    "7c02aae1f5bde22a38e524b87db971238becaba130514db0526510f9e11249f3"
+  ],
+  "log_samples": [
+    {
+      "log_id": "5beef6307c27d8a719ee483d6656f506d438f0be6f447cf152d93bc4ae69c701",
+      "timestamp": "2026-10-21T11:39:33.700340+00:00",
+      "data": {
+        "timestamp": "2026-10-21T11:39:33.700340+00:00",
+        "src_ip": "192.0.2.10",
+        "dst_ip": "198.51.100.20",
+        "dst_port": 22,
+        "event_type": "auth",
+        "source": "jsonl",
+        "protocol": "tcp",
+        "username": "demo-user",
+        "service": "ssh",
+        "outcome": "failure",
+        "event_id": "SYNTHETIC-AUTH-0-2026-10-21T11:39:24.700340+00:00"
+      },
+      "late": false
+    },
+    {
+      "log_id": "53743b830eae87e3fb9b06775a58ce7292a3959aa791f09c0e5ad5e40a177c2f",
+      "timestamp": "2026-10-21T11:39:34.700340+00:00",
+      "data": {
+        "timestamp": "2026-10-21T11:39:34.700340+00:00",
+        "src_ip": "192.0.2.10",
+        "dst_ip": "198.51.100.20",
+        "dst_port": 22,
+        "event_type": "auth",
+        "source": "jsonl",
+        "protocol": "tcp",
+        "username": "demo-user",
+        "service": "ssh",
+        "outcome": "failure",
+        "event_id": "SYNTHETIC-AUTH-1-2026-10-21T11:39:24.700340+00:00"
+      },
+      "late": false
+    },
+    {
+      "log_id": "e5ad32bfe00108bdac34da34af0eb9732475c94c112604a622d9af0286237531",
+      "timestamp": "2026-10-21T11:39:35.700340+00:00",
+      "data": {
+        "timestamp": "2026-10-21T11:39:35.700340+00:00",
+        "src_ip": "192.0.2.10",
+        "dst_ip": "198.51.100.20",
+        "dst_port": 22,
+        "event_type": "auth",
+        "source": "jsonl",
+        "protocol": "tcp",
+        "username": "demo-user",
+        "service": "ssh",
+        "outcome": "failure",
+        "event_id": "SYNTHETIC-AUTH-2-2026-10-21T11:39:24.700340+00:00"
+      },
+      "late": false
+    },
+    {
+      "log_id": "1a2cc1323412cab56e2286682106e1f867cb68cfd40dba7db2f857bb6f161663",
+      "timestamp": "2026-10-21T11:39:36.700340+00:00",
+      "data": {
+        "timestamp": "2026-10-21T11:39:36.700340+00:00",
+        "src_ip": "192.0.2.10",
+        "dst_ip": "198.51.100.20",
+        "dst_port": 22,
+        "event_type": "auth",
+        "source": "jsonl",
+        "protocol": "tcp",
+        "username": "demo-user",
+        "service": "ssh",
+        "outcome": "failure",
+        "event_id": "SYNTHETIC-AUTH-3-2026-10-21T11:39:24.700340+00:00"
+      },
+      "late": false
+    },
+    {
+      "log_id": "7c02aae1f5bde22a38e524b87db971238becaba130514db0526510f9e11249f3",
+      "timestamp": "2026-10-21T11:39:37.700340+00:00",
+      "data": {
+        "timestamp": "2026-10-21T11:39:37.700340+00:00",
+        "src_ip": "192.0.2.10",
+        "dst_ip": "198.51.100.20",
+        "dst_port": 22,
+        "event_type": "auth",
+        "source": "jsonl",
+        "protocol": "tcp",
+        "username": "demo-user",
+        "service": "ssh",
+        "outcome": "failure",
+        "event_id": "SYNTHETIC-AUTH-4-2026-10-21T11:39:24.700340+00:00"
+      },
+      "late": false
+    }
+  ],
+  "evidence": {
+    "count": 5,
+    "window_seconds": 60,
+    "threshold": 5,
+    "window_start": "2026-10-21T11:38:37.700340+00:00",
+    "window_end": "2026-10-21T11:39:37.700340+00:00",
+    "log_ids": [
+      "5beef6307c27d8a719ee483d6656f506d438f0be6f447cf152d93bc4ae69c701",
+      "53743b830eae87e3fb9b06775a58ce7292a3959aa791f09c0e5ad5e40a177c2f",
+      "e5ad32bfe00108bdac34da34af0eb9732475c94c112604a622d9af0286237531",
+      "1a2cc1323412cab56e2286682106e1f867cb68cfd40dba7db2f857bb6f161663",
+      "7c02aae1f5bde22a38e524b87db971238becaba130514db0526510f9e11249f3"
+    ],
+    "trigger_log_id": "7c02aae1f5bde22a38e524b87db971238becaba130514db0526510f9e11249f3",
+    "source": "jsonl",
+    "destinations": [
+      "198.51.100.20"
+    ],
+    "dst_ports": [
+      22
+    ],
+    "protocols": [
+      "tcp"
+    ],
+    "flows": [
+      {
+        "dst_ip": "198.51.100.20",
+        "dst_port": 22,
+        "protocol": "tcp"
+      }
+    ]
+  },
+  "caveats_mn": [
+    "Энэ нь offline evidence тайлбар; LLM/API дуудаагүй. Халдлага эсвэл compromise батлагдсан гэсэн үг биш.",
+    "IP нь илгээгчийн хаяг; NAT, shared IP эсвэл Suricata rule target-оос шалтгаалан халдагчийг дангаараа нотлохгүй."
+  ]
+}
+
+$ python C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\dist\SentinelAI.pyz timeline --ip 192.0.2.10 --db C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\tmpa1y0s4nh\investigation\simulation-20261021-193924-698768\alerts.sqlite3 --export C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\tmpa1y0s4nh\timeline.json
+
+
+
+$ python C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\dist\SentinelAI.pyz reputation 192.0.2.10 --provider both --db C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\tmpa1y0s4nh\investigation\simulation-20261021-193924-698768\alerts.sqlite3
+
+[
+  {
+    "ip": "192.0.2.10",
+    "provider": "abuseipdb",
+    "status": "not_applicable",
+    "freshness": "unknown",
+    "provider_updated_at": null,
+    "fetched_at": null,
+    "reason_mn": "Private/local/documentation IP тул public reputation API руу илгээгээгүй. Орон нутгийн log дохиог тусад нь шалгана."
+  },
+  {
+    "ip": "192.0.2.10",
+    "provider": "virustotal",
+    "status": "not_applicable",
+    "freshness": "unknown",
+    "provider_updated_at": null,
+    "fetched_at": null,
+    "reason_mn": "Private/local/documentation IP тул public reputation API руу илгээгээгүй. Орон нутгийн log дохиог тусад нь шалгана."
+  }
+]
+
+$ python C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\dist\SentinelAI.pyz simulate --hosts 50 --interval 0
+
+SentinelAI LIVE SIMULATION | synthetic local events | no network traffic
+Artifacts: C:\Users\bb787\OneDrive\Documents\ChatGPT\SentinelAI\tmpa1y0s4nh\profile\SentinelAI\simulation-20261021-193926-349620
+
+STAGE: Baseline - 50 unique IP addresses, no alerts expected
+  [01/120] 192.0.2.1 success
+  [02/120] 192.0.2.2 success
+  [03/120] 192.0.2.3 success
+  [04/120] 192.0.2.4 success
+  [05/120] 192.0.2.5 success
+  [06/120] 192.0.2.6 success
+  [07/120] 192.0.2.7 success
+  [08/120] 192.0.2.8 success
+  [09/120] 192.0.2.9 success
+  [10/120] 192.0.2.10 success
+  [11/120] 192.0.2.11 success
+  [12/120] 192.0.2.12 success
+  [13/120] 192.0.2.13 success
+  [14/120] 192.0.2.14 success
+  [15/120] 192.0.2.15 success
+  [16/120] 192.0.2.16 success
+  [17/120] 192.0.2.17 success
+  [18/120] 192.0.2.18 success
+  [19/120] 192.0.2.19 success
+  [20/120] 192.0.2.20 success
+  [21/120] 192.0.2.21 success
+  [22/120] 192.0.2.22 success
+  [23/120] 192.0.2.23 success
+  [24/120] 192.0.2.24 success
+  [25/120] 192.0.2.25 success
+  [26/120] 192.0.2.26 success
+  [27/120] 192.0.2.27 success
+  [28/120] 192.0.2.28 success
+  [29/120] 192.0.2.29 success
+  [30/120] 192.0.2.30 success
+  [31/120] 192.0.2.31 success
+  [32/120] 192.0.2.32 success
+  [33/120] 192.0.2.33 success
+  [34/120] 192.0.2.34 success
+  [35/120] 192.0.2.35 success
+  [36/120] 192.0.2.36 success
+  [37/120] 192.0.2.37 success
+  [38/120] 192.0.2.38 success
+  [39/120] 192.0.2.39 success
+  [40/120] 192.0.2.40 success
+  [41/120] 192.0.2.41 success
+  [42/120] 192.0.2.42 success
+  [43/120] 192.0.2.43 success
+  [44/120] 192.0.2.44 success
+  [45/120] 192.0.2.45 success
+  [46/120] 192.0.2.46 success
+  [47/120] 192.0.2.47 success
+  [48/120] 192.0.2.48 success
+  [49/120] 192.0.2.49 success
+  [50/120] 192.0.2.50 success
+
+STAGE: SSH failures - five suspicious sources
+  [51/120] 192.0.2.1 failure
+  [52/120] 192.0.2.1 failure
+  [53/120] 192.0.2.1 failure
+  [54/120] 192.0.2.1 failure
+  [55/120] 192.0.2.1 failure
+  ALERT MEDIUM score=65 ssh_brute_force source=192.0.2.1
+
+STAGE: Successful login after failures
+  [56/120] 192.0.2.1 success
+  ALERT CRITICAL score=90 suspicious_auth source=192.0.2.1
+
+STAGE: SSH failures - five suspicious sources
+  [57/120] 192.0.2.2 failure
+  [58/120] 192.0.2.2 failure
+  [59/120] 192.0.2.2 failure
+  [60/120] 192.0.2.2 failure
+  [61/120] 192.0.2.2 failure
+  ALERT MEDIUM score=65 ssh_brute_force source=192.0.2.2
+
+STAGE: Successful login after failures
+  [62/120] 192.0.2.2 success
+  ALERT CRITICAL score=90 suspicious_auth source=192.0.2.2
+
+STAGE: SSH failures - five suspicious sources
+  [63/120] 192.0.2.3 failure
+  [64/120] 192.0.2.3 failure
+  [65/120] 192.0.2.3 failure
+  [66/120] 192.0.2.3 failure
+  [67/120] 192.0.2.3 failure
+  ALERT MEDIUM score=65 ssh_brute_force source=192.0.2.3
+
+STAGE: Successful login after failures
+  [68/120] 192.0.2.3 success
+  ALERT CRITICAL score=90 suspicious_auth source=192.0.2.3
+
+STAGE: SSH failures - five suspicious sources
+  [69/120] 192.0.2.4 failure
+  [70/120] 192.0.2.4 failure
+  [71/120] 192.0.2.4 failure
+  [72/120] 192.0.2.4 failure
+  [73/120] 192.0.2.4 failure
+  ALERT MEDIUM score=65 ssh_brute_force source=192.0.2.4
+
+STAGE: Successful login after failures
+  [74/120] 192.0.2.4 success
+  ALERT CRITICAL score=90 suspicious_auth source=192.0.2.4
+
+STAGE: SSH failures - five suspicious sources
+  [75/120] 192.0.2.5 failure
+  [76/120] 192.0.2.5 failure
+  [77/120] 192.0.2.5 failure
+  [78/120] 192.0.2.5 failure
+  [79/120] 192.0.2.5 failure
+  ALERT MEDIUM score=65 ssh_brute_force source=192.0.2.5
+
+STAGE: Successful login after failures
+  [80/120] 192.0.2.5 success
+  ALERT CRITICAL score=90 suspicious_auth source=192.0.2.5
+
+STAGE: Port scans - five suspicious sources
+  [81/120] 192.0.2.6 port=1000
+  [82/120] 192.0.2.6 port=1001
+  [83/120] 192.0.2.6 port=1002
+  [84/120] 192.0.2.6 port=1003
+  [85/120] 192.0.2.6 port=1004
+  [86/120] 192.0.2.6 port=1005
+  [87/120] 192.0.2.6 port=1006
+  [88/120] 192.0.2.6 port=1007
+  ALERT MEDIUM score=50 port_scan source=192.0.2.6
+  [89/120] 192.0.2.7 port=1000
+  [90/120] 192.0.2.7 port=1001
+  [91/120] 192.0.2.7 port=1002
+  [92/120] 192.0.2.7 port=1003
+  [93/120] 192.0.2.7 port=1004
+  [94/120] 192.0.2.7 port=1005
+  [95/120] 192.0.2.7 port=1006
+  [96/120] 192.0.2.7 port=1007
+  ALERT MEDIUM score=50 port_scan source=192.0.2.7
+  [97/120] 192.0.2.8 port=1000
+  [98/120] 192.0.2.8 port=1001
+  [99/120] 192.0.2.8 port=1002
+  [100/120] 192.0.2.8 port=1003
+  [101/120] 192.0.2.8 port=1004
+  [102/120] 192.0.2.8 port=1005
+  [103/120] 192.0.2.8 port=1006
+  [104/120] 192.0.2.8 port=1007
+  ALERT MEDIUM score=50 port_scan source=192.0.2.8
+  [105/120] 192.0.2.9 port=1000
+  [106/120] 192.0.2.9 port=1001
+  [107/120] 192.0.2.9 port=1002
+  [108/120] 192.0.2.9 port=1003
+  [109/120] 192.0.2.9 port=1004
+  [110/120] 192.0.2.9 port=1005
+  [111/120] 192.0.2.9 port=1006
+  [112/120] 192.0.2.9 port=1007
+  ALERT MEDIUM score=50 port_scan source=192.0.2.9
+  [113/120] 192.0.2.10 port=1000
+  [114/120] 192.0.2.10 port=1001
+  [115/120] 192.0.2.10 port=1002
+  [116/120] 192.0.2.10 port=1003
+  [117/120] 192.0.2.10 port=1004
+  [118/120] 192.0.2.10 port=1005
+  [119/120] 192.0.2.10 port=1006
+  [120/120] 192.0.2.10 port=1007
+  ALERT MEDIUM score=50 port_scan source=192.0.2.10
+
+Simulation PASS: ips=50 records=120 invalid=0 late=0 new_alerts=15
+Saved: ips.txt, events.jsonl, alerts.sqlite3, alerts.csv, alerts.json, report.json

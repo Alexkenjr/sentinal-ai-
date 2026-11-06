@@ -1,0 +1,10 @@
+{
+  "synthetic": true,
+  "executed_tools": [],
+  "source_ips": 50,
+  "packet_records": 85,
+  "expected_port_scan_alerts": 5,
+  "nmap_hosts": 50,
+  "nmap_open_ports": 150,
+  "note": "Nmap inventory and packet timeline are independent fixtures, not a claim about a real scan."
+}

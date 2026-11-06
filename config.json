@@ -1,0 +1,5 @@
+{
+  "ssh_brute_force": {"window_seconds": 60, "threshold": 5},
+  "port_scan": {"window_seconds": 30, "threshold": 8},
+  "suspicious_auth": {"window_seconds": 300, "threshold": 3}
+}

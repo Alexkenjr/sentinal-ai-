@@ -1,0 +1,7 @@
+{
+  "synthetic": true,
+  "records": 15,
+  "expected_alerts": 4,
+  "expected_sequence": "port_scan -> login failures -> successful login",
+  "reputation_network_calls": 0
+}

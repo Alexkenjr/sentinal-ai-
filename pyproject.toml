@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sentinelai-local"
+version = "0.6.0"
+description = "Local rule-based JSONL security monitoring and alert review"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+sentinelai = "sentinelai.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["sentinelai*"]
